@@ -1,0 +1,572 @@
+A R T I C L E I N F O
+
+Keywords:
+Anodization
+Aluminum oxide
+Fast Fourier transform
+Surface morphology
+Atomic force microscopy (AFM)
+
+A B S T R A C T
+
+Nanoporous alumina ﬁlms were synthesized on commercial grade aluminum substrates using single-step
+anodization technique in 0.3 M phosphoric acid at room temperature. Eﬀect of applied voltage (100–130 V) on
+surface characteristics of anodized aluminum oxide (AAO) ﬁlm was investigated. Surface topography parameters
+and regularity ratio of nanopores arrangement were characterized using power spectral density (PSD) and fast
+Fourier transform (FFT) proﬁles. While DC anodization suﬀered from ﬁlament-like cavities at 130 V owing to
+thermally enhanced dissolution of oxide, AC anodization produced localized ﬂower-like morphology for all the
+applied voltages. The intensity of localized ﬂower-like morphology was increased monotonically with applied
+voltage. Evolution of ﬂower-like morphology was discussed on the basis of Pashchanka-Schneider model.
+
+1. Introduction
+
+Nanoporous anodic aluminum oxide (AAO) has a tremendous
+potential in large spectrum of nano-scale engineering applications
+ranging from template-assisted synthesis of nanowires to MEMS/
+NEMS based tribology devices [1–4]. Numerous eﬀorts have been made
+in the literature to understand the mechanism of pattern formation
+during aluminum anodization [5–10]. The ﬁeld-assisted dissolution
+model [5–9] suggests that oxide ﬁlm growth occurs at the metal/oxide
+interface owing to inward migration of O2−ions across the barrier layer
+and the pores are formed mainly at the oxide/electrolyte interface due
+to electric ﬁeld-accelerated dissolution of anodic alumina accompanied
+by outward migration of Al3+ ions into the electrolyte. The stress-
+driven viscous ﬂow model [10–12] claims that nanopores are generated
+mainly by ﬂow of material from the pore bases to the cell walls and this
+material displacement is primarily facilitated by plasticity of the oxide
+ﬁlm. The oxygen bubble model [13–15] emphasizes that the evolution
+of O2 occurs with the formation of oxide ﬁlm, and whether or not this
+oxide ﬁlm has been transformed from barrier type to porous type, can
+be determined by observing whether or not O2 separates out of the bulk
+oxide ﬁlm. Later, Pashchanka et al [16–18] proposed the novel
+theoretical model for nanoporous pattern formation by adopting the
+analogy of Rayleigh-Bernard convection cells. While the temperature
+gradient is the driving for Rayleigh-Bernard convection cells, the
+applied voltage is considered as a driving force for pattern formation
+in porous oxide ﬁlm [16]. However, it is very diﬃcult to provide the
+uniﬁed theory describing all the aspects of random experimental
+observations during aluminum anodization. Nevertheless, Pashchan-ka-Schneider model describes the wide range of unexplained experi-
+mental observations for the formation of equal-sized hexagonally
+ordered pores [16].
+
+The self-ordering of nanopores in anodized aluminium oxide (AAO)
+ﬁlm is governed by several anodization parameters such as applied
+voltage [19], time [20], temperatures [20] and pH [21], concentration
+[21], conductivity, viscosity [22] and composition [23] of the applied
+electrolyte. Pashchanka et al [16] proposed an empirical relationship
+between these anodization parameters as follows:
+
+(1) - формула
+
+Where P is the porosity number or criterion for the appearance of
+self-organized nanopores (found experimentally to be around 0.057 for
+the majority of the widely used electrolytes), Qav is the average charge
+of supporting electrolyte anions, 10 −pH is the proton concentration, ΔU
+is the applied voltage, η is the dynamic viscosity, σ is the speciﬁc
+electrical conductivity and C is the acid concentration. The Eq. (1)
+demonstrates that the self-ordering voltage mainly depends upon the
+applied electrolyte. For instance, the lower voltages (15–30 V) are
+preferred for the less viscous solutions of sulfuric acid and oxalic acid
+while the higher voltages (160–195 V) for a viscous phosphoric acid
+[16]. Stepniowski et al [20] investigated the inﬂuence of time and
+temperature on the arrangement of alumina nanopores. They observed
+that the better ordering of alumina nanopores occurs in second-step
+anodization if ﬁrst-step anodization is performed for longer duration
+owing to better pre-texturing of the aluminum beneath the pore
+bottoms, at the metal–oxide interface and the applied temperature
+has no eﬀect on ordering of nanopores for a short time anodization.
+Stepniowski et al [21] mentioned that interpore distance between
+nanopores linearly scales with applied voltage while it increases
+exponentially with molar fraction of chromic acid electrolyte.
+
+Most researchers synthesized self-organized nanoporous aluminum
+oxide ﬁlms by utilizing the combination of high purity aluminum
+substrate and low temperatures (0-10 °C) by using DC anodization
+[24–27]. This combination is generally preferred as the existence of any
+chemical impurities shall not allow sustainable growth of oxide ﬁlm
+owing to thermally enhanced dissolution and dielectric breakdown [28]
+at the metal-oxide interface during DC anodization. However, there has
+been signiﬁcant interest among the aluminum industry for alternating
+current (AC) and pulsed current anodization to fabricate nanoporous
+AAO ﬁlms on commercial grade Al-alloys and low purity aluminum
+substrates under ambient environment [29–33]. De Graeve et al [29]
+investigated the contribution of cathodic process during AC anodization
+of commercial Al-alloys, and observed that cathodic hydrogen gas
+evolution develops high cathodic potential at ﬂaw sites tending to
+reduce the eﬃciency of ﬁlm formation. In recent years, pulsed current
+techniques seem to be gaining attraction since it overcomes most of the
+disadvantages (thermally enhanced dissolution of DC anodized ﬁlm,
+limited thickness, and inferiority in the quality of AC anodized ﬁlm)
+associated with conventional DC and AC anodization techniques. Lee
+et al [31] proposed pulse anodization approach that combines the
+advantages of mild anodization (formation of self-ordered nanopores)
+and hard anodization (high production rate). Law et al [32] tailored the
+optical properties of AAO photonic crystals by controlling the various
+anodization parameters precisely using sawtooth-like pulse anodiza-
+tion. Chung et al [33,34] proposed the novel hybrid pulse anodization
+technique to synthesize AAO ﬁlms on commercial grade purity Al
+substrates (99%) at room temperature condition itself. The basic idea
+behind this hybrid pulse approach was to suppress any temperature rise
+by facilitating the cooling of electrolyte during the pulse-oﬀperiod. The
+incorporation of cathodic cycle using alternating current may reduce
+the dissolution tendency of oxide layer at impurity sites to the certain
+extent. It is noted that certain engineering applications such as
+hydrogen gas storage [35,36], catalysis [37,38], electrochemical sen-
+sing [39] , membrane synthesis [40,41] and corrosion protection
+coatings [21,42,43] shall not need any self-organized or well-ordered
+nanopores. Moreover, AC anodization has distinct practical advantages
+relative to DC anodization. For instance, it is possible to obtain
+anodization for two diﬀerent aluminum substrates at the same time
+during AC anodization. AC anodization also minimizes the necessity for
+pretreatment of the aluminum substrates and agitation of anodizing
+electrolyte owing to hydrogen gas evolution during cathodic cycle. In
+fact, AC anodization can be considered as one of the simplest, economic
+and aﬀordable industrial techniques in the mass production of corro-
+sion protection coatings for large-scale aluminum sheet and food
+packaging applications [29]. Despite the mechanism of nanoporous
+oxide formation during AC anodization is similar to that of DC
+anodization; the characteristics of ﬁlm morphology, surface topography
+and regularity ratio of poorly arranged nanopores may be varied as a
+function of applied voltage during AC and DC anodization. Further-
+more, the nature of ﬁlm morphology and surface topography play
+decisive role in determining the mechanical and frictional behavior of
+AAO ﬁlms for surface engineering related applications [44–46]. Main
+objective of the present study was to understand the evolution of ﬁlm
+morphology, surface topography and regularity ratio of poorly arranged
+alumina nanopores obtained on commercial grade Al substrates by
+varying applied voltage (100–130 V) using single-step DC and AC
+anodization.
+
+2. Experimental methods
+
+Commercial grade Al substrates of 99.0% purity were utilized to
+fabricate nanoporous aluminium oxide ﬁlms by single-step anodization.
+Firstly, the surface area of Al specimens (15 mm x 15 mm x 0.25 mm)
+was coated with an insulative polymer ﬁlm after leaving an exposed
+area of 1 cm² for anodization process. Al specimens were then subjected
+to chemical polishing in 1 M solution of NaOH for two min in order to
+achieve the mirror-like surface ﬁnish. Subsequently, single-step D.C.
+and A.C. anodization were performed on these polished Al substrates in
+0.3 M phosphoric acid solution at a constant applied voltage of 100,
+110, 120 and 130 V for 15 min. DC-current was supplied from DC
+power source (Zeal-Tech instrument, Model No.9211, India) while AC-
+current was supplied from single phase auto transformer (Crown
+Instrument, Model No.C10ASPT, India). All the anodization experi-
+ments were performed at room temperature (30–35 °C) and water bath
+was used as a heat sinking source during anodization. The presence of
+thin whitish gray layer on Al substrates conﬁrmed the formation of AAO
+ﬁlms. Three specimens were prepared for each set of process para-
+meters to ensure repeatability in the experimental data. It should be
+kept in mind that single-step anodization results in the formation of
+poorly arranged nanopores, unlike two-step anodization which leads to
+the formation of well-ordered hexagonal nanopores. Surface character-
+istics of AAO ﬁlms fabricated on commercial grade aluminum sub-
+strates were analyzed by scanning electron microscope (SEM, JEOL
+JSM-6610LV, Japan), and atomic force microscope (AFM, Bruker
+Multimode 8, USA) respectively. Power spectral density (PSD) and
+Fast Fourier transforms (FFT) proﬁles were derived from AFM images
+and SEM micrographs in order to evaluate the surface topography
+parameters and regularity ratio of pore arrangement for all the AAO
+ﬁlms, synthesized at various D.C. and A.C. voltages.
+
+3. Results and discussion
+
+Fig. 1 depicts the variation of current as a function of time for both
+AC and DC anodization. In typical AC anodization, the aluminum
+specimen serves as an anode for every 0.01 s (at a given frequency of
+50 Hz) and for the same consecutive period, it acts as a cathode due to
+polarity shift in the voltage. However, aluminum remains as anodic
+material during the entire period for the case of DC anodization. Fig. 2
+shows the SEM micrographs which represent the evolution of surface
+morphology of anodized specimens performed by DC and AC anodiza-
+tion techniques. It is evident that the nature of surface morphology is
+more or less appeared to be similar at 100 V (compare Fig. 2(a) and
+(b)). On the contrary, the ﬁlament-like cavities are observed for DC
+anodized specimen at 130 V as seen in Fig. 2(c). The existence of
+ﬁlament-like cavities could be associated with the thermally enhanced
+dissolution of oxide ﬁlm. When impurities accommodated within
+commercial grade aluminum are subjected to high electrical resistivity,
+it causes sudden temperature rise of an electrolyte which eventually
+leading to induce thermally enhanced dissolution of oxide at the
+electrolyte/anode interface [32] . It is well-known fact that Joule's
+heat linearly scales with an applied voltage during anodization. There-
+fore, when applied voltage approaches 130 V, anodized specimen may
+experience the maximum Joule's heat within the electrolyte. This
+demonstrates that DC mode exhibits thermally enhanced dissolution
+of oxide ﬁlm at impurity sites after certain amount of Joule's heat is
+achieved and this happens only at 130 V. However, there is no evidence
+of thermally enhanced dissolution of oxide ﬁlm for the case of AC
+anodization at any applied voltage in the present work. It is believed
+that the introduction of cathodic cycle may suppress the abrupt rise in
+Joule's heat within the electrolytic medium. Most importantly, it can be
+seen that AC anodization represents the evolution of localized ﬂower-
+like morphology over the anodized surface at 130 V (Fig. 2(d)). The
+summary of important geometrical parameters which were quantiﬁed
+after anodization is provided in Table 1. The measured pore diameters
+of nanopores for AC as well as DC anodization from SEM micrographs
+are found to be in the range of 90–100 nm except the specimen
+anodized at 130 V during DC anodization (Table 1). The existence of
+higher pore diameter (278 nm) for DC anodization performed at 130 V
+can be ascribed to the thermally enhanced dissolution owing to higher
+amount of Joule's heat.
+
+Fig. 1. Variation of current as a function of time for DC and AC anodization process.
+
+Fig. 2. Surface morphologies of anodized commercial grade aluminum specimens, (a) & (b) DC & AC anodization performed at 100 V; (c) & (d) DC & AC anodization performed at 130 V
+respectively.
+
+Table 1
+Summary of important geometrical parameters for DC and AC anodized ﬁlms.
+
+Fig. 3 depicts the low-resolution SEM images of nanoporous
+structures of AAO ﬁlms obtained using AC anodization under diﬀerent
+Voltage Pore diameter, nm RMS roughness, nm Average regularity ratio
+voltages. It can be seen that the intensity of localized ﬂower-like
+morphology increases monotonically with increasing applied voltage.
+At this moment, it is worthwhile to understand the mechanism of
+nanoporous oxide formation in accordance with Pashchanka-Schneider
+model [16] during DC anodization as follows; Firstly, hydrated anions
+are attracted towards aluminium during anodic cycle. These hydrated
+anions have a shell of water molecules around them. Aluminium reacts
+with water molecules to form colloidal alumina particles along with
+generation of protons which tends to lower the pH locally near the
+aluminium surface according to the following equation [16];
+
+Fig. 3. SEM micrographs of anodized commercial grade aluminum samples performed by AC anodization at diﬀerent voltages (a) 100 V, (b) 110 V, (c) 120 V, and (d) 130 V.
+
+These colloidal alumina particles cannot precipitate directly on
+aluminium substrate owing to low pH. However, at a certain distance
+away from the working electrode, pH is locally increased because of the
+attracted OH− ions from the electrolyte [16]. The negative charge is
+accumulated near the anode due to the migration of hydrated anions
+towards the aluminum surface [16]. Each new migrating hydrated
+anion experiences the repulsion forces from the accumulated charge
+along with the attraction by the electromagnetic force [16].
+
+Once the critical concentration gradient of hydrated anions is
+attained, they start to move in the opposite direction due to the
+conventional diﬀusion process [16]. This diﬀusion decreases the
+accumulation of negative charge near the anode and facilities the
+delivery of newly hydrated anions to participate in the chemical
+reaction as mentioned in the Eq. (2). The competition between two
+driving forces (electromagnetic attraction and diﬀusion of hydrated
+anions) creates concentration and current ﬂuctuations. This scenario
+activates steady-state exchange of anions and ionic currents akin to
+convective currents for Rayleigh-Bernard cells [16].
+
+By steady-state exchange of anions, the mobile colloidal alumina
+particles are escaped away from the aluminum surface and migrate to
+the region where there exists a scarcity of H+ ions and get neutralized
+with OH−ions attracted from the electrolyte [16]. On this region, pH
+increases locally. Therefore, these colloidal alumina particles can now
+be able to coagulate and precipitate above the aluminum substrate in
+order to form an inter-pore wall [16]. Once the inter-pore wall is
+formed, it is lifted up by the newly colloidal particles from below and
+leading to the formation of nanoporous pattern [16]. According to
+Pashchanka-Schneider model [16], the applied voltage should be
+around 160 V to obtain any self-ordering of alumina nanopores in
+phosphoric acid electrolyte. Most of the experimental observations also
+suggest that self-ordering voltage should be in the range of 160–195 V
+for the case of 0.3 M phosphoric acid [16]. Since the range of applied
+voltage in the present work lies between 100–130 V, the self-ordering of
+alumina nanopores has not been expected. In fact, SEM examination
+conﬁrms that alumina nanopores are not well-organized or poorly
+arranged irrespective of the applied voltage during AC anodization as
+well as DC anodization.
+
+Fig. 4 illustrates the schematic model for the formation of ﬂower-
+like morphology on the basis of Pashchanka-Schneider model [16].
+Despite this model is mainly suggested for DC anodization, it can be
+utilized to explain how localized ﬂower-like morphology emerges over
+the free surface of AAO ﬁlm during AC anodization. Firstly, the
+mechanism of inter-pore wall generation is caused by the steady-state
+exchange of the ions during anodic cycle of AC anodization as described
+in Pashchanka-Schneider model. Later, the porous oxide formation is
+hindered due to shift in polarity by the introduction of cathodic cycle
+during AC anodization. In the mean time, there is an evolution of
+hydrogen gas at preferential sites having majority of ﬂaws or impurities
+[5]. Furthermore, attractions of hydronium ions towards the cathode
+tending to lower the pH locally near the aluminium substrate. There-
+fore, the alumina particles those were produced during previous anodic
+cycle did not get a chance to coagulate and remain to be in the colloidal
+state. This evolving hydrogen gas pushes away these mobile colloidal
+alumina particles out of the bulk oxide ﬁlm. After several numbers of
+anodic and cathodic cycles, those alumina particles which were pushed
+outside of the bulk porous oxide ﬁlm are still in the colloidal state
+owing to low pH in the remote electrolyte. Once, we turn oﬀ the AC
+power supply, the production of both H+ and hydrogen gas stops and
+pH is raised locally in this surface region. This favors the settling of
+colloidal alumina particles which eventually results in the emergence of
+ﬂower-like morphology over the free surface of the bulk porous oxide
+ﬁlm. It should be noted that the magnitude of pushing, and settling of
+these colloidal alumina particles dictate the intensity of ﬂower-like
+morphology. The trend in the intensity of localized ﬂower-like mor-
+phology demonstrates that the magnitude of pushing and settling of
+colloidal alumina particles increases with increasing of applied voltage.
+This may be ascribed to the evolution of larger amount of hydrogen gas
+during AC anodization.
+
+Fig. 4. A schematic mode illustrates the formation of ﬂower-like morphology during AC Anodization in accordance with Pashchanka-Schneider model [16].
+
+3D AFM images contrast the diﬀerence in surface roughness
+between DC and AC mode anodized at similar applied voltage of
+130 V (compare Fig. 5(a) and (b)). Fig. 5(c) depicts the variation of
+(RMS, root mean square) roughness as a function of applied voltage for
+both DC and AC anodization. It can be seen that RMS roughness values
+remain constant until 120 V and reached its maximum value at 130 V
+during DC anodization, whereas roughness values vary moderately for
+the case of AC anodization. This abrupt increase in RMS roughness
+value can be associated with thermally enhanced dissolution. It is
+pertinent to mention that RMS roughness values do not truly represent
+the exact surface topographic variations that existed in anodized
+samples as roughness parameter is highly sensitive to the length scale
+of measurement; hence we preferred to obtain power spectral density
+(PSD) proﬁle by using atomic force microscopic technique [47].
+Fig 6(a) and (b) show the power spectral density spectra of anodized
+samples performed at DC and AC mode for diﬀerent voltages. It is well-
+documented that the slope of high-frequency domain refers to local
+roughness or fractal components, and power intensity at low-frequency
+domain gives the information related to the strength of the aggregates
+or global roughness. On the high-frequency domain, it can be observed
+that local roughness increases slightly with the applied voltage for the
+case of AC anodization. However, roughness remains almost constant in
+DC anodized specimen except at 130 V where thermally enhanced
+dissolution accelerates. The directional ﬂow of ions remains constant
+during DC anodization where one can expect the constant roughness
+proﬁle for DC anodized specimen. However, the uni-directional ﬂow of
+ions is often changed or interrupted for the case of AC anodization
+owing to shift in the polarity for every 0.01 s.
+
+Fig. 5. 3D-AFM based surface topographies of anodized samples performed at 130 V. (a) DC mode; (b) AC mode and (c) estimated RMS roughness of anodized samples as a function of
+applied voltage in DC and AC modes.
+
+Fig. 6. Power spectral density proﬁles of anodized samples derived from AFM images for (a) DC and (b) AC modes of anodization.
+
+Fig. 7 represents typical radial averages of fast Fourier transform
+(FFT) proﬁles obtained from SEM images of DC and AC anodized
+specimen. The radial average of FFT proﬁles of alumina nanopores were
+obtained by using a methodology adopted by Wojciech et al [48] . FFT
+proﬁle was generated from SEM micrographs using WSxM software
+[49,50]. It is noted that physical meaning of radial average is nothing
+but a distribution of interpore distance in the inversed space. The
+intensity of FFT proﬁle refers to the regularity of pore arrangement and
+FFT radius measures the average inter-pore distance. The width of full
+intensity at half of its height can be related to uniformity in the
+distribution of low-ordered nanopores. Regularity ratio of nanoporous
+arrangement within alumina ﬁlms can be estimated from the radial
+average of FFT proﬁle according to the following equation;
+
+формула
+
+where: n is number of pores, H is the maximum intensity of the FFT
+radial average, S is analyzed surface area and width of the radial
+average at half of the maximum intensity from FFT proﬁle. The lowest
+regularity ratio of nanopores was registered for the DC mode at 130 V.
+This can be associated with the thermally enhanced dissolution of oxide
+as mentioned earlier. It is evident that regularity ratio of nanoporous
+arrangement and uniformity of nanopores for AC anodized samples are
+signiﬁcantly higher than that for DC anodized specimens at similar
+applied voltages (see Fig. 7 and Table. 1). During AC anodization
+process, hydrogen/oxygen gases which evolved during the cathodic/
+anodic cycles are being expected to impose isotropic pressure within
+the alumina nanopores which eventually tending to produce better
+regularity ratio of nanoporous arrangement. This hypothesis appears to
+be consistent with oxygen bubble eﬀect which imparts certain level of
+isotropic pressure to the cell walls of oxide ﬁlm and brings some level of
+ordered nanoporous arrangement [12]. Chu et al [13] observed
+experimentally that surface morphology of anodizing front can be
+composed of traces of gas pores after SEM examination. Furthermore,
+Zaraska et al [14] pointed out that the complete reorganization of
+nanopores in the phosphoric acid electrolyte can be attributed to the
+oxygen gas evolution occurring during anodization. In accordance with
+Pashchanka-Schneider model [16], self-ordering voltage is 160 V for
+phosphoric acid as mentioned earlier. In the present work, ordering of
+porous arrangement may enhance with increasing of voltage as voltage
+diﬀerence provides the driving force for pattern formation [16]. For
+instance, it can be seen that regularity ratio of porous arrangement
+increases steadily from 2.9 to 4.9 when voltage is increased from 100 to
+130 V as mentioned in Table 1. Stepniowski et al [48] also mentioned
+that greater the applied voltage and temperature, better the regularity
+ratio of nanoporous arrangement during aluminum anodization.
+Although debate continues on various existing theoretical models, the
+evolution of ﬂower-like morphology can be explained successfully by
+Pashchanka-Schneider model [16]. The trend in the regularity ratio of
+nanopores for AC anodized specimen appears to be quite consistent
+with oxygen bubble eﬀect [12]. This means that surface morphology of
+nanoporous arrangement during AC anodization may be determined by
+synergism between oxygen bubble eﬀect, and Rayleigh convective cells
+in accordance with Pashchanka-Schneider model [16].
+
+Fig. 7. Fast Fourier transforms proﬁles derived from SEM images for commercial grade
+aluminum anodized using DC and AC modes.
+
+4. Conclusions
+
+1. No signiﬁcant change in surface morphological features was ob-
+served until 120 V irrespective of the polarity or applied voltages.
+However, DC anodization suﬀered from ﬁlament-like cavities with
+unusual surface roughness at 130 V. This can be ascribed with
+thermally enhanced dissolution of oxide at impurity or defect sites.
+
+2. Nanoporous AAO ﬁlms experienced localized ﬂower-like morphol-
+ogy for all the applied voltages during AC anodization. Evolution of
+ﬂower-like morphology can be explained successfully by
+Pashchanka-Schneider model.
+
+3. The regularity ratio of nanoporous arrangement was found to be
+superior during AC anodization when compared to DC anodization.
+This could be associated with oxygen bubble eﬀect which brings
+some level of ordering. This demonstrates that the mechanism of
+nanoporous pattern formation is primarily controlled by the combi-
+nation between oxygen bubble eﬀect and Rayleigh convective cells
+during AC anodization.
+
+Acknowledgements
+
+The authors would like to express their gratitude for the technical
+support provided by Mr. Dilbagh Singh, and Mr. Ram Kumar during the
+entire course of experimentation.
+##
+References
+
+[1] A.M.M. Jani, D. Losic, N.H. Voelcker, Nanoporous anodic aluminum oxide:
+advances in surface engineering and emerging applications, Prog. Mater. Sci. 58
+(2013) 636–704.
+[2] W. Yang, C. Cui, Q. Liu, B. Cao, L. Liu, Y. Zhang, Fabrication and magnetic
+properties of Sm2Co17 and Sm2Co17 /Fe7 Co3 magnetic nanowires via AAO
+templates, J. Crystal Growth 399 (2014) 1–6.
+[3] S.W. Hong, J. Bae, B. Koo, Y.B. Kim, High-performance ultra-thin ﬁlm solid oxide
+fuel cell using anodized-aluminum-oxide supporting structure, Electrochem. Comm.
+47 (2014) 1–4.
+[4] B. Kang, U. Yeo, K. Yoo, Anodized aluminum oxide-based capacitance sensors for
+the direct detection of DNA hybridization, Biosens. Bioelectron. 25 (2010)
+1592–1596.
+[5] H. Masuda, K. Fukuda, Ordered metal nanohole arrays made by a two-step
+replication of honeycomb structures of anodic alumina, Science 268 (1995)
+1466–1468.
+[6] H. Masuda, F. Hasegawa, S. Ono, Self-ordering of cell arrangement of anodic porous
+alumina formed in sulfuric acid solution, J. Electrochem. Soc. 144 (1997)
+L127–L129.
+[7] H. Masuda, K. Yada, A. Osaka, Self-ordering of cell conﬁguration of anodic porous
+alumina with large-size pores in phosphoric acid solution, Jpn. J. Appl. Phys. 37
+(1998) L1340–L1342.
+[8] J. Oh, C.V. Thompson, The role of electric ﬁeld in pore formation during aluminum
+anodization, Electrochem. Acta 56 (2001) 4044–4051.
+[9] H. Wu, K.R. Herbert, Electrochemical transients during the initial moments of
+anodic oxidation of aluminium, Electrochim. Acta 47 (2002) 1373–1383.
+
+[10] G.K. Singh, A.A. Golovin, I.S. Aranson, Formation of self-organized nanoscale
+porous structures in anodic aluminum oxide, Phy. Rev: B 73 (2006) 2054.
+[11] J.E. Houser, K.R. Hebert, The role of viscous ﬂow of oxide in the growth of self-
+ordered porous anodic alumina ﬁlms, Nat. Mater 8 (2008) 415–420.
+[12] S.J. Garcia-Vergara, P. Skeldon, G.E. Thompson, H. Habazaki, A ﬂow model of
+porous anodic ﬁlm growth on aluminium, Electrochim. Acta. 52 (2006) 681–687.
+[13] X.F. Zhu, D.D. Li, Y. Song, Y.H. Xiao. The study on oxygen bubbles of anodic
+alumina based on high purity aluminum, Mater. Lett. 59 (2005) 3160–3163.
+[14] L. Zaraska, A. Brudzisz, E. Wierzbicka, G.D. Sulka, The eﬀect of electrolyte change
+on the morphology and degree of nanopore order of porous alumina formed by two-
+step anodization, Electro Chemica. Acta 198 (2016) 259–267.
+[15] V. Cheim Chu, H. Li, H. Kim, J.M. Seo, Eﬀect of bubble gas on the formation of self-
+organized pore arrays in anodic aluminium oxide, J. Kor. Phy. Soc. 54 (2009)
+2415–2419.
+[16] M. Pashchanka, J.J. Schneider, Origin of self-organisation in porous anodic alumina
+ﬁlms derived from analogy with Rayleigh–Bénard convection cells, J. Mater. Chem.
+21 (2011) 18761.
+[17] M. Pashchanka, J.J. Schneider, Self-ordering regimes of porous anodic alumina
+layers formed in highly diluted oxalic acid electrolyte”, Phys. Chem. Chem. Phys. 18
+(2016) 6946–6953.
+[18] M. Pashchanka, J.J. Schneider, Evidence for electrohydrodynamic convection as a
+source of spontaneous self-ordering in porous anodic alumina ﬁlms, Phys. Chem.
+Chem. Phys. 18 (2016) 6946–6953.
+[19] A.M. Abd-Elnaiem, A. Gaber, Parametric Study on the anodization of pure
+aluminum thin ﬁlm used in fabricating nano-pores template, Int. J. Electrochem.
+Sci. 8 (2013) 9741–9751.
+[20] W.J. Stępniowskia, A. Nowak-Stępniowskab, A. Preszc, T. Czujkoa, R.A. Varind, The
+eﬀects of time and temperature on the arrangement of anodic aluminum oxide
+nanopores, Mater. Character. 91 (2014) 1–9.
+[21] S.T. Abrahami, T. Hauﬀman, J.M.M. de Kok, H. Terryn, J.M.C. Mol, The role of
+acid-base properties in the interactions across the oxide-primer interface in aero-
+space applications, Surf. Interface Anal. 48 (2016) 712–720.
+[22] W.J. Stȩpniowski, D. Forbot, M. Norek, M. Michalska-Domańska, A. Król, The
+impact of viscosity of the electrolyte on the formation of nanoporous anodic
+aluminum oxide, Electrochim. Acta. 133 (2014) 57–64.
+[23] W.J. Stȩpniowski, M. Moneta, M. Norek, M. Michalska-Domańska, A. Scarpellini,
+M. Salerno, The inﬂuence of electrolyte composition on the growth of nanoporous
+anodic alumina, Electrochim. Acta. 211 (2016) 453–460.
+[24] A.P. Li, F. Muller, A. Birner, K. Nielsch, U. Gosele, Hexagonal pore arrays with a
+50–420 nm interpore distance formed by self-organization in anodic alumina, J.
+Appl. Phys. 84 (11) (1998) 6023–6026.
+[25] F. Nasirpouri, M. Abdollahzadeh, M.J. Almasi, N. Parvini-Ahmadi, A comparison
+between self-ordering of nanopores in aluminum oxide ﬁlms achieved by two- and
+three-step anodic oxidation, Curr. Appl. Phys. 9 (2009) S91–S94.
+[26] M. Ghorbani, F. Nasirpouri, A. Irajizad, A. Saedi, On the growth sequence of highly
+ordered nanoporous anodic aluminum oxide, Mater. Design 27 (2006) 983–988.
+[27] F. Li, L. Zhang, R.M. Metzger, On the growth of highly ordered pores in anodized
+aluminum oxide, Chem. Mater. 10 (1998) 2470–2480.
+[28] H.J. De Wit, C. Wijenberg, C. Crevecoeur, The dielectric breakdown of Anodic
+Aluminum Oxide, J. Electrochem. Soc. 123 (1976) 1479–1486.
+[29] I. De Graeve, H. Terryn, G.E. Thompson, AC-anodising of aluminium: Contribution
+to electrical and eﬃciency study, Electrochem. Acta 52 (2006) 1127–1134.
+[30] Li Lingchuan, AC anodization of aluminum, electrodeposition of nickel and optical
+property examination, Sol. Energy Mater. Sol. Cells 64 (3) (2000) 279–289.
+[31] W. Lee, K. Schwirn, M. Steinhart, E. Pippel, R. Scholz, U. Gösele, Structural
+engineering of nanoporous anodic aluminium oxide by pulse anodization of
+
+aluminium, Nat. Nanotechnol. 3 (2008) 234–239.
+[32] C.S. Law, A. Santos, M. Nemati, D. Losic, Structural engineering of nanoporous
+anodic alumina phtonic crystals by sawtooth-like pulse anodization,Appl, Mater.
+Interf. 8 (2016) 13542–13554.
+[33] C.K. Chung, W.T. Chang, M.W. Liao, H.C. Chang, Improvement of pore distribution
+uniformity of nanoporous anodic aluminum oxide with pulse reverse voltage on
+low-and-high-purity aluminum foils, Mater. Lett. 88 (2012) 104–107.
+[34] CK Chung, RX Zhou, TY Liu, WT Chang, Hybrid pulse anodization for the
+fabrication of porous anodic alumina ﬁlms from commercial purity (99%)
+aluminum at room temperature, Nanotech 20 (2009) 055301.
+[35] M. Norek, W.J. Stȩpniowski, M. Polanski, D. Zasada, Z. Bojar, J. Bystrzycki, A
+comparative study on the hydrogen absorption of thin ﬁlms at room temperature
+deposited on non-porous glass substrate and nano-porous anodic aluminum oxide
+(AAO) template, Int. J. Hydrogen Energy 36 (2011) 11777–11784.
+[36] M. Norek, W.J. Stȩpniowski, D. Zasada, K. Karczewski, J. Bystrzycki, Z. Bojar, H2
+absorption at ambient conditions by anodized aluminum oxide (AAO) pattern-
+transferred Pd nanotubes occluded by Mg nanoparticles, Mater. Chem. Phys. 133
+(2012) 376–382.
+[37] A. Brzózka, D. Szeliga, E. Kurowska-Tabor, G.D. Sulka, Synthesis of copper
+nanocone array electrodes and its electrocatalytic properties toward hydrogen
+peroxide reduction, Mater. Lett. 174 (2016) 66–70.
+[38] A. Brzózka, A. Jeleń, A.M. Brudzisz, M.M. Marzec, G.D. Sulka, Electrocatalytic
+reduction of chloroform at nanostructured silver electrodes, Electrochim. Acta. 225
+(2017) 574–583.
+[39] E. Kurowska, A. Brzózka, M. Jarosz, G.D. Sulka, M. Jaskuła, Silver nanowire array
+sensor for sensitive and rapid detection of H2O2, Electrochim. Acta. 104 (2013)
+439–447.
+[40] T. Masuda, H. Asoh, S. Haraguchi, S. Ono, Nanoporous alpha;-alumina membrane
+prepared by anodizing and heat treatment, Electrochemistry 82 (2014) 448–455.
+[41] T. Masuda, H. Asoh, S. Haraguchi, S. Ono, Fabrication and characterization of single
+phase α-alumina membranes with tunable pore diameters, Materials 8 (2015)
+1350–1368 (Basel).
+[42] M.A. van Put, S.T. Abrahami, O. Elisseeva, J.M.M. de Kok, J.M.C. Mol, H. Terryn,
+Potentiodynamic anodizing of aluminum alloys in Cr(VI)-free electrolytes, Surf.
+Interface Anal. 48 (2016) 946–952.
+[43] S.T. Abrahami, T. Hauﬀman, J.M.M. De Kok, J.M.C. Mol, H. Terryn, XPS analysis of
+the surface chemistry and interfacial bonding of barrier-type Cr(VI)-free anodic
+oxides, J. Phys. Chem. C. 119 (2015) 19967–19975.
+[44] F. Keller, M.S. Huntey, D.L. Robinson, Structural features of oxide coatings on
+aluminium, J. Electrochem. Soc. 100 (1953) 411–419.
+[45] M.K. Kushwaha, S. Anjan, S. Ray, Carbon nanotube/nanoﬁber embedded nano-
+porous anodized aluminium oxide surface and its tribological properties, J. Nanosci.
+Nanotech. 8 (2008) 4152–4157.
+[46] J.P. Tu, C.X. Jiang, S.Y. Guoc, X.B. Zhaoa, M.F. Fu, Tribological properties of
+aligned ﬁlm of amorphous carbon nanorods on AAO membrane in diﬀerent
+environments, Wear 259 (2005) 759–764.
+[47] C.J. Buchko, K.M. Kozloﬀ, D.C. Martin, Surface characterization of porous,
+biocompatible protein polymer thin ﬁlms, Biomaterials 22 (2001) 1289–1300.
+[48] W.J. Stępniowski, M. Michalska-Domańska, M. Norek, T. Czujko. Fast Fourier
+transform based arrangement analysis of poorly organized alumina nanopores
+formed via self-organized anodization in chromic acid. Mater. Lett. 117(2014)
+69–73.
+[49] Horcas,R. Fernández, J.M. Gómez-Rodríguez, J. Colchero, J. Gómez-Herrero,
+A.M. Baro, WSXM: a software for scanning probe microscopy and a tool for
+nanotechnology, Rev. Sci. Instrum. 78 (2007) 013705.
+[50] WSxM, http://www.nanotec.es (Last Accessed.
+
+
